@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "frame-optimizer",
+    "version": "${version}",
+    "name": "Frame Optimizer",
+    "description": "Отслеживает frame time и отображает его в HUD с адаптацией под герцовку монитора.",
+    "authors": [
+        "E7-Team"
+    ],
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.tvoimod.frameoptimizer.FrameOptimizerClient"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.18.0",
+        "fabric-api": "*",
+        "minecraft": "~1.21.11",
+        "java": ">=21"
+    }
+}
